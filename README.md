@@ -4,18 +4,6 @@
 
 ---
 
-## Table of Contents
-
-- [Demo](#demo)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
-
----
 
 ## Demo
 
@@ -40,20 +28,3 @@ A sleek interface for Ethereum transactions:
 
 ---
 
-## Project Structure
-
-
-crypto-pathao/
-├── client/ # Frontend React app
-│ ├── src/
-│ │ ├── components/ # Navbar, Footer, Services, Transactions, Welcome
-│ │ ├── pages/ # Wallet, Market, Exchange, Tutorials pages
-│ │ ├── context/ # React context for transactions
-│ │ └── utils/ # Constants, helpers
-├── smart_contract/ # Solidity contracts & Hardhat scripts
-│ ├── contracts/ # Transactions.sol
-│ ├── scripts/ # deploy.js
-│ └── test/ # sample-test.js
-├── package.json
-├── vite.config.js
-└── tailwind.config.js
